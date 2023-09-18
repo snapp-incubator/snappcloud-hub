@@ -1,0 +1,8 @@
+Schema: olm.semver
+GenerateMajorChannels: true
+GenerateMinorChannels: false
+Stable:
+  Bundles:
+  - Image: docker.io/hamedkarbasi/s3-operator-bundle:v0.0.1
+  - Image: docker.io/hamedkarbasi/s3-operator-bundle:v0.0.2
+  - Image: docker.io/hamedkarbasi/s3-operator-bundle:v0.0.3
