@@ -88,3 +88,4 @@ Create a subscription file for your operator and apply it on the cluster:
 ```bash
 kubectl apply -f s3-operator-subcscription.yaml
 ```
+
