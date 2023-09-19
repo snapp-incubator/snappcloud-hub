@@ -2,7 +2,8 @@ name: Build and Push the Catalog
 
 on:
   push:
-    branches: [ main ]
+    tags:
+      - 'v*'
 
 
 jobs:
@@ -31,5 +32,5 @@ jobs:
           context: .
           platforms: linux/amd64
           push: true
-          tags: latest
+          tags: ${{ steps.meta.outputs.tags }}
           labels: ${{ steps.meta.outputs.labels }}
