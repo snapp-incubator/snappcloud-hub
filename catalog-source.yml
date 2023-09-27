@@ -1,10 +1,10 @@
 apiVersion: operators.coreos.com/v1alpha1
 kind: CatalogSource
 metadata:
-  name: snappcloud
-  namespace: olm
+  name: snappcloud-hub-catalog
+  namespace: openshift-marketplace
 spec:
-  displayName: SnappCloud
+  displayName: SnappCloud-Hub
   image: ghcr.io/snapp-incubator/snappcloud-hub:latest
   sourceType: grpc
   grpcPodConfig:
