@@ -5,10 +5,7 @@ metadata:
   namespace: openshift-marketplace
 spec:
   displayName: SnappCloud-Hub
-  image: ghcr.io/snapp-incubator/snappcloud-hub:latest
+  image: ghcr.io/snapp-incubator/snappcloud-hub:v0.1.0
   sourceType: grpc
   grpcPodConfig:
     securityContextConfig: restricted
-  updateStrategy:
-    registryPoll: 
-      interval: 5m

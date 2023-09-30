@@ -6,7 +6,8 @@ schema: olm.package
 entries:
 - name: s3-operator.v0.2.0
 - name: s3-operator.v0.2.1
-  replaces: s3-operator.v0.2.0
+  skips:
+  - s3-operator.v0.2.0
 name: candidate-v0
 package: s3-operator
 schema: olm.channel
