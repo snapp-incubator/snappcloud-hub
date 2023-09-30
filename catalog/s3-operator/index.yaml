@@ -1,5 +1,5 @@
 ---
-defaultChannel: candidate-v0
+defaultChannel: stable-v0
 name: s3-operator
 schema: olm.package
 ---
@@ -9,6 +9,12 @@ entries:
   skips:
   - s3-operator.v0.2.0
 name: candidate-v0
+package: s3-operator
+schema: olm.channel
+---
+entries:
+- name: s3-operator.v0.2.1
+name: stable-v0
 package: s3-operator
 schema: olm.channel
 ---
