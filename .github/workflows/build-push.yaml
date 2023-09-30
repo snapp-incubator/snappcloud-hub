@@ -31,5 +31,5 @@ jobs:
           context: .
           platforms: linux/amd64
           push: true
-          tags: ghcr.io/${{ github.repository }}:v0.1.0
+          tags: ghcr.io/${{ github.repository }}-catalog:latest
           labels: ${{ steps.meta.outputs.labels }}
