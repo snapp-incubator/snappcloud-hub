@@ -9,3 +9,4 @@ Candidate:
 Stable:
   Bundles:
   - Image: ghcr.io/snapp-incubator/s3-operator-bundle:v0.2.1
+  - Image: ghcr.io/snapp-incubator/s3-operator-bundle:v0.2.2

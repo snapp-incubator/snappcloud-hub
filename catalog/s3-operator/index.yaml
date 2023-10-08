@@ -16,6 +16,9 @@ schema: olm.channel
 ---
 entries:
 - name: s3-operator.v0.2.1
+- name: s3-operator.v0.2.2
+  skips:
+  - s3-operator.v0.2.1
 name: stable-v0
 package: s3-operator
 schema: olm.channel
