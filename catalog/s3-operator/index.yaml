@@ -28,10 +28,12 @@ entries:
 - name: s3-operator.v0.3.0
 - name: s3-operator.v0.3.1
 - name: s3-operator.v0.3.3
+- name: s3-operator.v0.3.4
   replaces: s3-operator.v0.2.2
   skips:
   - s3-operator.v0.3.0
   - s3-operator.v0.3.1
+  - s3-operator.v0.3.3
 name: stable-v0
 package: s3-operator
 schema: olm.channel
