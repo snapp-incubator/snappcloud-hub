@@ -1,11 +1,17 @@
 ---
-defaultChannel: candidate-v0
+defaultChannel: stable-v0
 name: basicauthenticator
 schema: olm.package
 ---
 entries:
 - name: basicauthenticator.v0.1.0
 name: candidate-v0
+package: basicauthenticator
+schema: olm.channel
+---
+entries:
+- name: basicauthenticator.v0.1.0
+name: stable-v0
 package: basicauthenticator
 schema: olm.channel
 ---
