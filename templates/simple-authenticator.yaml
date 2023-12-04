@@ -1,0 +1,6 @@
+Schema: olm.semver
+GenerateMajorChannels: true
+GenerateMinorChannels: false
+Candidate:
+  Bundles:
+  - Image: ghcr.io/snapp-incubator/simple-authenticator-bundle:v0.1.0
