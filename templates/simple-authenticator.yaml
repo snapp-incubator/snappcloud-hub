@@ -4,3 +4,11 @@ GenerateMinorChannels: false
 Candidate:
   Bundles:
   - Image: ghcr.io/snapp-incubator/simple-authenticator-bundle:v0.1.2
+  - Image: ghcr.io/snapp-incubator/simple-authenticator-bundle:v0.1.3
+  - Image: ghcr.io/snapp-incubator/simple-authenticator-bundle:v0.1.4
+  - Image: ghcr.io/snapp-incubator/simple-authenticator-bundle:v0.1.5
+  - Image: ghcr.io/snapp-incubator/simple-authenticator-bundle:v0.1.6
+  - Image: ghcr.io/snapp-incubator/simple-authenticator-bundle:v0.1.7
+Stable:
+  Bundels:
+  - Image: ghcr.io/snapp-incubator/simple-authenticator-bundle:v0.1.7
