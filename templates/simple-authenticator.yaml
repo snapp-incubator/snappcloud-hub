@@ -14,3 +14,4 @@ Stable:
   Bundels:
   - Image: ghcr.io/snapp-incubator/simple-authenticator-bundle:v0.1.7
   - Image: ghcr.io/snapp-incubator/simple-authenticator-bundle:v0.1.8
+
