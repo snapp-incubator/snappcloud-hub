@@ -1,5 +1,5 @@
 ---
-defaultChannel: candidate-v0
+defaultChannel: stable-v0
 name: simple-authenticator
 schema: olm.package
 ---
@@ -19,6 +19,15 @@ entries:
   - simple-authenticator.v0.1.6
   - simple-authenticator.v0.1.7
 name: candidate-v0
+package: simple-authenticator
+schema: olm.channel
+---
+entries:
+- name: simple-authenticator.v0.1.7
+- name: simple-authenticator.v0.1.8
+  skips:
+  - simple-authenticator.v0.1.7
+name: stable-v0
 package: simple-authenticator
 schema: olm.channel
 ---
